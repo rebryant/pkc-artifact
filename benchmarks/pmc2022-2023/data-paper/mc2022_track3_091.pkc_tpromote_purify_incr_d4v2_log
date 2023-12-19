@@ -1,0 +1,192 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_091.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 1932 declared variables, 5539 clauses, 60 data variables
+c Initial BCP/BVE found 11 unit literals and eliminated 4 variables
+c Variable analysis found and/or created 9 Tseitin variables
+c After preprocessing, have 2+7 Tseitin and 1820 non-Tseitin projection variables
+c Initial POG created.  112361 nodes, 4731336 edges,  4843697 clauses. Root literal = 114293
+c Time 3.60: Initial compilation completed
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1947 by BCP that is already unit
+c WARNING: Attempt to set literal 1935 by BCP that is already unit
+c WARNING: Attempt to set literal 1938 by BCP that is already unit
+c WARNING: Attempt to set literal 1939 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1938 by BCP that is already unit
+c WARNING: Attempt to set literal 1938 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1935 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1938 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1945 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1942 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1947 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1938 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1942 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1942 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1942 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1939 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1939 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1935 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1943 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1942 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1934 by BCP that is already unit
+c WARNING: Attempt to set literal 1944 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1936 by BCP that is already unit
+c WARNING: Attempt to set literal 1941 by BCP that is already unit
+c WARNING: Attempt to set literal 1939 by BCP that is already unit
+c WARNING: Attempt to set literal 1940 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c WARNING: Attempt to set literal 1937 by BCP that is already unit
+c Time 3566.83: Projecting compilation completed
+c Time 3566.93: Unweighted count completed
+c Time 3566.93: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 1932
+c PKC:    Data variables         : 60
+c PKC:    Eliminated variables   : 15
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 2
+c PKC:       Tseitin promoted    : 7
+c PKC:       Tseitin TOTAL       : 9
+c PKC:    Other projection vars  : 1820
+c PKC:    Unused vars            : 28
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 5539
+c PKC:       BVE Elim clauses    : 4
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 8
+c PKC:       Clause TOTAL        : 5543
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   1834
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 34715
+c PKC:    Initial POG Product    : 77646
+c PKC:    Initial POG Nodes      : 112361
+c PKC:    Initial POG Edges      : 4731336
+c PKC:    Initial POG Clauses    : 4843697
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 183526
+c PKC:    Total POG Product      : 296173
+c PKC:    Total POG Nodes        : 479699
+c PKC:    Total POG Edges        : 5646251
+c PKC:    Total POG Clauses      : 6125950
+c PKC: Final POG
+c PKC:    Final POG Sum          : 83838
+c PKC:    Final POG Product      : 113043
+c PKC:    Final POG Nodes        : 196881
+c PKC:    Final POG Edges        : 487811
+c PKC:    Final POG Clauses      : 684692
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 40537
+c PKC:    SAT Clause MIN         : 2
+c PKC:    SAT Clause AVG         : 568.85
+c PKC:    SAT Clause MAX         : 661678
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 3976
+c PKC:    XKC Clause MIN         : 74
+c PKC:    XKC Clause AVG         : 2118.17
+c PKC:    XKC clause MAX         : 661678
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 4436
+c PKC:    BKC Clause MIN         : 2
+c PKC:    BKC Clause AVG         : 52.09
+c PKC:    BKC clause MAX         : 3755
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 8412
+c PKC:    KC POG MIN             : 0
+c PKC:    KC POG AVG             : 68.79
+c PKC:    KC POG MAX             : 112361
+c PKC: Node Traversals:
+c PKC:       Total Product       : 64628
+c PKC:         Data Sum          : 25
+c PKC:         Mutex Sum         : 20701
+c PKC:         Tautology Sum     : 1394
+c PKC:         Subsumed Sum      : 3435
+c PKC:         Counted SS Sum    : 753
+c PKC:         Excluding Sum     : 6804
+c PKC:       Total Sum           : 33112
+c PKC:    Traverse TOTAL         : 97740
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 4436
+c PKC:    Only data variables    : 8408
+c PKC:    Only projection vars   : 580
+c PKC:    Result reuse           : 19737
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 0.03
+c PKC:    Classify/promote vars  : 0.03
+c PKC:    Initial KC time        : 2.89
+c PKC:    Other external KC time : 2748.94
+c PKC:    Builtin KC time        : 17.75
+c PKC:    SAT time               : 11.60
+c PKC:    Ring evaluation time   : 2.58
+c PKC:    Other time             : 783.18
+c PKC:    Time TOTAL             : 3566.98
+Unweighted count:20617980288
+PKC LOG: Elapsed time = 3567.116 seconds
+PKC OUTCOME: normal

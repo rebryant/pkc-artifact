@@ -1,0 +1,43 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_149.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 120 declared variables, 688 clauses, 70 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 50 non-Tseitin projection variables
+c Initial POG created.  41602518 nodes, 472342583 edges,  513945101 clauses. Root literal = 41602638
+c Time 542.84: Initial compilation completed
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 125 by BCP that is already unit
+c WARNING: Attempt to set literal 125 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 132 by BCP that is already unit
+c WARNING: Attempt to set literal 126 by BCP that is already unit
+c WARNING: Attempt to set literal 125 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 122 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 135 by BCP that is already unit
+c WARNING: Attempt to set literal 135 by BCP that is already unit
+c WARNING: Attempt to set literal 129 by BCP that is already unit
+c WARNING: Attempt to set literal 129 by BCP that is already unit
+c WARNING: Attempt to set literal 131 by BCP that is already unit
+c WARNING: Attempt to set literal 131 by BCP that is already unit
+c WARNING: Attempt to set literal 129 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.188 seconds
+PKC OUTCOME: Timeout

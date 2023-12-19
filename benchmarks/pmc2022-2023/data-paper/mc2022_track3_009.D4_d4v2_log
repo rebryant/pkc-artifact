@@ -1,0 +1,116 @@
+D4 LOG: Running /Users/bryant/repos/d4v2/d4v2 -i ./mc2022_track3_009.scnf -m ddnnf-compiler --dump-ddnnf ./mc2022_track3_009.nnf
+D4 LOG: Time limit 1000 seconds
+c [CONSTRUCTOR] Problem: ./mc2022_track3_009.scnf cnf
+c [INITIAL INPUT] [4m[32mStatistics about the input formula[0m
+c [INITIAL INPUT] Number of variables: 100
+c [INITIAL INPUT] Number of clauses: 549
+c [INITIAL INPUT] Number of binary clauses: 25
+c [INITIAL INPUT] Number of ternary clauses: 101
+c [INITIAL INPUT] Number of clauses larger than 3: 416
+c [INITIAL INPUT] Number of literals: 2024
+c
+c [CONSTRUCTOR] MethodManager: ddnnf-compiler
+c [CONSTRUCTOR] Preproc: basic cnf
+c [CONSTRUCTOR] Preproc solver: minisat cnf
+c [MAIN PREPROCESSED INPUT] [4m[32mStatistics about the preprocessed formula[0m
+c [PREPROCESSED INPUT] Number of variables: 100
+c [PREPROCESSED INPUT] Number of clauses: 549
+c [PREPROCESSED INPUT] Number of binary clauses: 25
+c [PREPROCESSED INPUT] Number of ternary clauses: 101
+c [PREPROCESSED INPUT] Number of clauses larger than 3: 416
+c [PREPROCESSED INPUT] Number of literals: 2024
+c
+c [MODE] Panic: 0
+c [CONSTRUCTOR] Solver: minisat cnf
+c [CONSTRUCTOR SPEC] Spec manager: dynamic cnf
+c [CONSTRUCTOR] Variable heuristic: vsads
+c [CONSTRUCTOR] Phase heuristic: polarity
+c [MODE] classic
+c [CONSTRUCTOR] Partitioner manager: decomposition-static-dual cnf reduceFormula(1) equivSimp(1) phase(none) dynamicPhase(0) staticPhase(0)
+c [CONSTRUCTOR] Switching between static and dynamic decomposition: none
+c [CONSTRUCTOR] Static partitioner: dual
+c [TREE DECOMPOSITION] Start tree decomposition generation ... done
+c [CACHE] Cache method used: list
+c [CONSTRUCTOR] Cache cleaning manager: expectation
+c [CONSTRUCTOR] Cache bucket manager: storage(not-touched)  representation(clause)  size_first_page(2147483648) size_additional_page(536870912)
+c [CACHE LIST CONSTRUCTOR]
+c [CONSTRUCTOR] Operation: method(ddnnf-compiler) float(0)
+c
+c Warm start process (11): 16/29
+c --------------------------------------------------------------------------------------------------------
+c |        time|     #posHit|     #negHit|      memory|      #split|     mem(MB)|  #dec. Node|     #cutter|
+c --------------------------------------------------------------------------------------------------------
+c |        0.15|        8062|        8202|     1218451|        7937|        0.00|        8202|        2114|
+c |        0.31|       16137|       16388|     2501672|       15412|        0.00|       16388|        3970|
+c |        0.47|       24615|       24583|     3704300|       22842|        0.00|       24583|        5835|
+c |        0.62|       33829|       32773|     4957658|       30930|        0.00|       32773|        7491|
+c |        0.80|       42349|       40966|     6448242|       38409|        0.00|       40966|        8915|
+c |        0.99|       50629|       49154|     8026044|       45578|        0.00|       49154|       10217|
+c |        1.19|       58691|       57352|     9816495|       52622|        0.00|       57352|       11548|
+c |        1.39|       65833|       65544|    11544457|       58602|        0.00|       65544|       12635|
+c |        1.59|       73377|       73731|    13153384|       64930|        0.00|       73731|       13721|
+c |        1.79|       81173|       81927|    14812300|       71817|        0.00|       81927|       14897|
+c |        1.99|       87599|       90121|    16468511|       77028|        0.00|       90121|       16101|
+c |        2.19|       94262|       98308|    18159339|       82273|        0.00|       98308|       17188|
+c |        2.40|      100969|      106503|    20030015|       87937|        0.00|      106503|       18291|
+c |        2.59|      109140|      114695|    21563274|       94659|        0.00|      114695|       19629|
+c |        2.79|      116867|      122884|    23180268|      100929|        0.00|      122884|       20751|
+c |        2.98|      124748|      131076|    24698909|      107386|        0.00|      131076|       21940|
+c |        3.13|      133582|      139272|    25895749|      114689|        0.00|      139272|       23474|
+c |        3.30|      142616|      147462|    27203974|      122305|        0.00|      147462|       24694|
+c |        3.49|      150489|      155650|    28829705|      129230|        0.00|      155650|       25841|
+c |        3.67|      159260|      163847|    30249882|      136409|        0.00|      163847|       27122|
+c |        3.86|      167739|      172036|    31808902|      143588|        0.00|      172036|       28284|
+c |        4.03|      178206|      180229|    33071695|      152805|        0.00|      180229|       29736|
+c |        4.23|      186241|      188422|    34737589|      159629|        0.00|      188422|       30725|
+c |        4.43|      193764|      196614|    36384222|      165679|        0.00|      196614|       31818|
+c |        4.63|      201184|      204804|    37945973|      171754|        0.00|      204804|       32893|
+c |        4.81|      210446|      212999|    39296323|      179563|        0.00|      212999|       34149|
+c |        4.98|      220323|      221192|    40547577|      187775|        0.00|      221192|       35638|
+c |        5.17|      229413|      229382|    42049657|      195480|        0.00|      229382|       36832|
+c |        5.36|      236837|      237577|    43646922|      201261|        0.00|      237577|       37902|
+c |        5.54|      245855|      245765|    45072040|      208652|        0.00|      245765|       39149|
+c |        5.73|      254454|      253958|    46660815|      215959|        0.00|      253958|       40184|
+c |        5.93|      262733|      262149|    48175372|      222984|        0.00|      262149|       41382|
+c |        6.10|      273057|      270342|    49418974|      231730|        0.00|      270342|       42927|
+c |        6.26|      283842|      278536|    50601528|      241008|        0.00|      278536|       44296|
+c |        6.42|      295086|      286726|    51779010|      250995|        0.00|      286726|       45555|
+c |        6.59|      306038|      294915|    52902311|      260282|        0.00|      294915|       46815|
+c |        6.77|      315658|      303111|    54283209|      268384|        0.00|      303111|       47898|
+c |        6.95|      324930|      311300|    55775108|      276209|        0.00|      311300|       48999|
+c |        7.14|      333920|      319493|    57228803|      283482|        0.00|      319493|       50088|
+c |        7.34|      341953|      327685|    58995689|      289971|        0.00|      327685|       50914|
+c |        7.52|      352112|      335877|    60329705|      298359|        0.00|      335877|       52050|
+c --------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of recursive call: 674679
+c Number of split formula: 299755
+c Number of decision: 337339
+c Number of paritioner calls: 52223
+c
+c [1m[34mCache Information[0m
+c Number of positive hit: 353909
+c Number of negative hit: 337339
+c Number of reduce calls: 0
+c Number of entry removedreduce: 0
+c
+c
+c Final time: 7.55
+c
+D4 LOG: Elapsed time = 8.402 seconds
+D4 OUTCOME: normal
+mc2022_track3_009. D4 NNF: LOG: size ./mc2022_track3_009.nnf 1446907 lines 38624757 bytes
+GEN LOG: Running /Users/bryant/repos/model-counting/cpog/generator/cpog-generate -v 1 -p ./mc2022_track3_009.cnf ./mc2022_track3_009.nnf ./mc2022_track3_009.cpog
+GEN LOG: Time limit 1000 seconds
+c GEN: Time 0.00  Read input file with 100 variables and 549 clauses
+c Read D4 NNF file with 1031463 nodes (472473 explicit) and 974434 edges
+c Compressed POG has 915544 nodes, root literal 915644, and 7892960 defining clauses
+c POG has DAG size 7892960 and tree size 14985797 ratio = 1.90
+c GEN: Time 2.92  Generated POG representation
+c GEN: POG created.  Exiting
+GEN LOG: Elapsed time = 2.937 seconds
+GEN OUTCOME: normal
+hybrid LOG: Elapsed time = 11.605 seconds
+hybrid OUTCOME: normal

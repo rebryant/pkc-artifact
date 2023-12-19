@@ -1,0 +1,47 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_191.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 1875 declared variables, 4775 clauses, 64 data variables
+c Initial BCP/BVE found 9 unit literals and eliminated 2 variables
+c Variable analysis found and/or created 4 Tseitin variables
+c After preprocessing, have 2+2 Tseitin and 1796 non-Tseitin projection variables
+c Initial POG created.  283208 nodes, 3470838 edges,  3754046 clauses. Root literal = 285083
+c Time 3.18: Initial compilation completed
+c WARNING: Attempt to set literal 1880 by BCP that is already unit
+c WARNING: Attempt to set literal 1883 by BCP that is already unit
+c WARNING: Attempt to set literal 1881 by BCP that is already unit
+c WARNING: Attempt to set literal 1880 by BCP that is already unit
+c WARNING: Attempt to set literal 1880 by BCP that is already unit
+c WARNING: Attempt to set literal 1885 by BCP that is already unit
+c WARNING: Attempt to set literal 1898 by BCP that is already unit
+c WARNING: Attempt to set literal 1885 by BCP that is already unit
+c WARNING: Attempt to set literal 1898 by BCP that is already unit
+c WARNING: Attempt to set literal 1879 by BCP that is already unit
+c WARNING: Attempt to set literal 1880 by BCP that is already unit
+c WARNING: Attempt to set literal 1888 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1886 by BCP that is already unit
+c WARNING: Attempt to set literal 1876 by BCP that is already unit
+c WARNING: Attempt to set literal 1879 by BCP that is already unit
+c WARNING: Attempt to set literal 1876 by BCP that is already unit
+c WARNING: Attempt to set literal 1879 by BCP that is already unit
+c WARNING: Attempt to set literal 1877 by BCP that is already unit
+c WARNING: Attempt to set literal 1881 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1886 by BCP that is already unit
+c WARNING: Attempt to set literal 1888 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1888 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1887 by BCP that is already unit
+c WARNING: Attempt to set literal 1886 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.003 seconds
+PKC OUTCOME: Timeout

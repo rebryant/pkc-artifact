@@ -1,0 +1,118 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_053.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 180 declared variables, 1240 clauses, 17 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 158 non-Tseitin projection variables
+c Initial POG created.  18617595 nodes, 736317279 edges,  754934874 clauses. Root literal = 18617775
+c Time 1220.93: Initial compilation completed
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 189 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 189 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 188 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 188 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 190 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 191 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 188 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 183 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 189 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 181 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 183 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 183 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 190 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 190 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 183 by BCP that is already unit
+c WARNING: Attempt to set literal 188 by BCP that is already unit
+c WARNING: Attempt to set literal 181 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 183 by BCP that is already unit
+c WARNING: Attempt to set literal 181 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 181 by BCP that is already unit
+c WARNING: Attempt to set literal 182 by BCP that is already unit
+c WARNING: Attempt to set literal 186 by BCP that is already unit
+c WARNING: Attempt to set literal 187 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 184 by BCP that is already unit
+c WARNING: Attempt to set literal 191 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.149 seconds
+PKC OUTCOME: Timeout

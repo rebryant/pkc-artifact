@@ -1,0 +1,129 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2023_track4_129.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 90 declared variables, 252 clauses, 34 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 6 variables
+c Variable analysis found and/or created 4 Tseitin variables
+c After preprocessing, have 0+4 Tseitin and 46 non-Tseitin projection variables
+c Initial POG created.  68810327 nodes, 203829102 edges,  272639429 clauses. Root literal = 68810417
+c Time 299.55: Initial compilation completed
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 106 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal -92 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 111 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 100 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 111 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 97 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 111 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 100 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 100 by BCP that is already unit
+c WARNING: Attempt to set literal 95 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 103 by BCP that is already unit
+c WARNING: Attempt to set literal 93 by BCP that is already unit
+c WARNING: Attempt to set literal 112 by BCP that is already unit
+c WARNING: Attempt to set literal 112 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 98 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 101 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 104 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 99 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 102 by BCP that is already unit
+c WARNING: Attempt to set literal 100 by BCP that is already unit
+c WARNING: Attempt to set literal 106 by BCP that is already unit
+c WARNING: Attempt to set literal 109 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.322 seconds
+PKC OUTCOME: Timeout

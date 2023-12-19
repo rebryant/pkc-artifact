@@ -1,0 +1,79 @@
+D4 LOG: Running /Users/bryant/repos/d4v2/d4v2 -i ./mc2023_track3_001.scnf -m ddnnf-compiler --dump-ddnnf ./mc2023_track3_001.nnf
+D4 LOG: Time limit 1000 seconds
+c [CONSTRUCTOR] Problem: ./mc2023_track3_001.scnf cnf
+c [INITIAL INPUT] [4m[32mStatistics about the input formula[0m
+c [INITIAL INPUT] Number of variables: 2463
+c [INITIAL INPUT] Number of clauses: 5939
+c [INITIAL INPUT] Number of binary clauses: 3770
+c [INITIAL INPUT] Number of ternary clauses: 2157
+c [INITIAL INPUT] Number of clauses larger than 3: 0
+c [INITIAL INPUT] Number of literals: 14023
+c
+c [CONSTRUCTOR] MethodManager: ddnnf-compiler
+c [CONSTRUCTOR] Preproc: basic cnf
+c [CONSTRUCTOR] Preproc solver: minisat cnf
+c [MAIN PREPROCESSED INPUT] [4m[32mStatistics about the preprocessed formula[0m
+c [PREPROCESSED INPUT] Number of variables: 2463
+c [PREPROCESSED INPUT] Number of clauses: 5917
+c [PREPROCESSED INPUT] Number of binary clauses: 3750
+c [PREPROCESSED INPUT] Number of ternary clauses: 2155
+c [PREPROCESSED INPUT] Number of clauses larger than 3: 0
+c [PREPROCESSED INPUT] Number of literals: 13977
+c
+c [MODE] Panic: 0
+c [CONSTRUCTOR] Solver: minisat cnf
+c [CONSTRUCTOR SPEC] Spec manager: dynamic cnf
+c [CONSTRUCTOR] Variable heuristic: vsads
+c [CONSTRUCTOR] Phase heuristic: polarity
+c [MODE] classic
+c [CONSTRUCTOR] Partitioner manager: decomposition-static-dual cnf reduceFormula(1) equivSimp(1) phase(none) dynamicPhase(0) staticPhase(0)
+c [CONSTRUCTOR] Switching between static and dynamic decomposition: none
+c [CONSTRUCTOR] Static partitioner: dual
+c [TREE DECOMPOSITION] Start tree decomposition generation ... done
+c [CACHE] Cache method used: list
+c [CONSTRUCTOR] Cache cleaning manager: expectation
+c [CONSTRUCTOR] Cache bucket manager: storage(not-touched)  representation(clause)  size_first_page(2147483648) size_additional_page(536870912)
+c [CACHE LIST CONSTRUCTOR]
+c [CONSTRUCTOR] Operation: method(ddnnf-compiler) float(0)
+c
+c Warm start process (11): 9/29
+c --------------------------------------------------------------------------------------------------------
+c |        time|     #posHit|     #negHit|      memory|      #split|     mem(MB)|  #dec. Node|     #cutter|
+c --------------------------------------------------------------------------------------------------------
+c |        0.14|       11168|        8202|     1334403|        8808|        0.00|        8202|        3210|
+c |        0.32|       21758|       16394|     3075015|       17582|        0.00|       16394|        5442|
+c |        0.52|       32377|       24583|     5063104|       24547|        0.00|       24583|        6775|
+c |        0.75|       43282|       32775|     7451355|       30423|        0.00|       32775|        7254|
+c --------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of recursive call: 71461
+c Number of split formula: 36302
+c Number of decision: 35730
+c Number of paritioner calls: 7988
+c
+c [1m[34mCache Information[0m
+c Number of positive hit: 49591
+c Number of negative hit: 35730
+c Number of reduce calls: 0
+c Number of entry removedreduce: 0
+c
+c
+c Final time: 0.86
+c
+D4 LOG: Elapsed time = 1.319 seconds
+D4 OUTCOME: normal
+mc2023_track3_001. D4 NNF: LOG: size ./mc2023_track3_001.nnf 158157 lines 11567478 bytes
+GEN LOG: Running /Users/bryant/repos/model-counting/cpog/generator/cpog-generate -v 1 -p ./mc2023_track3_001.cnf ./mc2023_track3_001.nnf ./mc2023_track3_001.cpog
+GEN LOG: Time limit 1000 seconds
+c GEN: Time 0.00  Read input file with 2463 variables and 5939 clauses
+c Read D4 NNF file with 121444 nodes (50394 explicit) and 107763 edges
+c Compressed POG has 121024 nodes, root literal 123487, and 2081430 defining clauses
+c POG has DAG size 2081430 and tree size 186975665 ratio = 89.83
+c GEN: Time 0.60  Generated POG representation
+c GEN: POG created.  Exiting
+GEN LOG: Elapsed time = 0.613 seconds
+GEN OUTCOME: normal
+hybrid LOG: Elapsed time = 1.967 seconds
+hybrid OUTCOME: normal

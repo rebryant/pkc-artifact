@@ -1,0 +1,80 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_073.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 160 declared variables, 1272 clauses, 15 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 145 non-Tseitin projection variables
+c Initial POG created.  20464446 nodes, 464459154 edges,  484923600 clauses. Root literal = 20464606
+c Time 1674.12: Initial compilation completed
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 168 by BCP that is already unit
+c WARNING: Attempt to set literal 161 by BCP that is already unit
+c WARNING: Attempt to set literal 161 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 166 by BCP that is already unit
+c WARNING: Attempt to set literal 168 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 166 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 165 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 167 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 163 by BCP that is already unit
+c WARNING: Attempt to set literal 166 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 162 by BCP that is already unit
+c WARNING: Attempt to set literal 169 by BCP that is already unit
+c WARNING: Attempt to set literal 169 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+c WARNING: Attempt to set literal 166 by BCP that is already unit
+c WARNING: Attempt to set literal 166 by BCP that is already unit
+c WARNING: Attempt to set literal 164 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.129 seconds
+PKC OUTCOME: Timeout

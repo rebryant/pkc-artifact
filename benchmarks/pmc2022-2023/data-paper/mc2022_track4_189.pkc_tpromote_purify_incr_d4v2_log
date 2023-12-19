@@ -1,0 +1,160 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_189.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 190 declared variables, 1526 clauses, 32 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 154 non-Tseitin projection variables
+c Initial POG created.  3791540 nodes, 242880364 edges,  246671904 clauses. Root literal = 3791730
+c Time 1126.91: Initial compilation completed
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 191 by BCP that is already unit
+c WARNING: Attempt to set literal 191 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 202 by BCP that is already unit
+c WARNING: Attempt to set literal 202 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 201 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 199 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 191 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 198 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 196 by BCP that is already unit
+c WARNING: Attempt to set literal 200 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 195 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 197 by BCP that is already unit
+c WARNING: Attempt to set literal 211 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 194 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 193 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+c WARNING: Attempt to set literal 192 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.101 seconds
+PKC OUTCOME: Timeout

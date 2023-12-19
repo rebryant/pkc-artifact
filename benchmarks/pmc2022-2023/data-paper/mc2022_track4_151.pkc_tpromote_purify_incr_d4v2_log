@@ -1,0 +1,158 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_151.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 135 declared variables, 1269 clauses, 68 data variables
+c Initial BCP/BVE found 9 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 2 Tseitin variables
+c After preprocessing, have 2+0 Tseitin and 59 non-Tseitin projection variables
+c Initial POG created.  18816653 nodes, 224955069 edges,  243771722 clauses. Root literal = 18816788
+c Time 404.27: Initial compilation completed
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 147 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 149 by BCP that is already unit
+c WARNING: Attempt to set literal 147 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 137 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 148 by BCP that is already unit
+c WARNING: Attempt to set literal 171 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 148 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 145 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 146 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 154 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 141 by BCP that is already unit
+c WARNING: Attempt to set literal 152 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 144 by BCP that is already unit
+c WARNING: Attempt to set literal 147 by BCP that is already unit
+c WARNING: Attempt to set literal 147 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 138 by BCP that is already unit
+c WARNING: Attempt to set literal 146 by BCP that is already unit
+c WARNING: Attempt to set literal 146 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 143 by BCP that is already unit
+c WARNING: Attempt to set literal 140 by BCP that is already unit
+c WARNING: Attempt to set literal 154 by BCP that is already unit
+c WARNING: Attempt to set literal 154 by BCP that is already unit
+c WARNING: Attempt to set literal 146 by BCP that is already unit
+c WARNING: Attempt to set literal 148 by BCP that is already unit
+c WARNING: Attempt to set literal 148 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 142 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 139 by BCP that is already unit
+c WARNING: Attempt to set literal 146 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.101 seconds
+PKC OUTCOME: Timeout

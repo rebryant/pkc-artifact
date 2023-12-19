@@ -1,0 +1,350 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m d -2 ./mc2023_track4_139.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      deferred
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 380 declared variables, 1621 clauses, 380 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 0 non-Tseitin projection variables
+c Initial POG created.  21202 nodes, 2271581 edges,  2292783 clauses. Root literal = 21582
+c Time 30.52: Initial compilation completed
+c Time 30.52: Projecting compilation completed
+c Time 30.54: Unweighted count completed
+c WARNING: Couldn't find weight for input 378
+c WARNING: Couldn't find weight for input 377
+c WARNING: Couldn't find weight for input 376
+c WARNING: Couldn't find weight for input 374
+c WARNING: Couldn't find weight for input 373
+c WARNING: Couldn't find weight for input 371
+c WARNING: Couldn't find weight for input 370
+c WARNING: Couldn't find weight for input 369
+c WARNING: Couldn't find weight for input 368
+c WARNING: Couldn't find weight for input 365
+c WARNING: Couldn't find weight for input 364
+c WARNING: Couldn't find weight for input 363
+c WARNING: Couldn't find weight for input 361
+c WARNING: Couldn't find weight for input 360
+c WARNING: Couldn't find weight for input 359
+c WARNING: Couldn't find weight for input 357
+c WARNING: Couldn't find weight for input 356
+c WARNING: Couldn't find weight for input 355
+c WARNING: Couldn't find weight for input 354
+c WARNING: Couldn't find weight for input 353
+c WARNING: Couldn't find weight for input 352
+c WARNING: Couldn't find weight for input 351
+c WARNING: Couldn't find weight for input 348
+c WARNING: Couldn't find weight for input 344
+c WARNING: Couldn't find weight for input 343
+c WARNING: Couldn't find weight for input 341
+c WARNING: Couldn't find weight for input 340
+c WARNING: Couldn't find weight for input 339
+c WARNING: Couldn't find weight for input 338
+c WARNING: Couldn't find weight for input 335
+c WARNING: Couldn't find weight for input 333
+c WARNING: Couldn't find weight for input 332
+c WARNING: Couldn't find weight for input 331
+c WARNING: Couldn't find weight for input 330
+c WARNING: Couldn't find weight for input 329
+c WARNING: Couldn't find weight for input 328
+c WARNING: Couldn't find weight for input 327
+c WARNING: Couldn't find weight for input 322
+c WARNING: Couldn't find weight for input 321
+c WARNING: Couldn't find weight for input 320
+c WARNING: Couldn't find weight for input 319
+c WARNING: Couldn't find weight for input 318
+c WARNING: Couldn't find weight for input 317
+c WARNING: Couldn't find weight for input 316
+c WARNING: Couldn't find weight for input 314
+c WARNING: Couldn't find weight for input 313
+c WARNING: Couldn't find weight for input 312
+c WARNING: Couldn't find weight for input 311
+c WARNING: Couldn't find weight for input 310
+c WARNING: Couldn't find weight for input 308
+c WARNING: Couldn't find weight for input 307
+c WARNING: Couldn't find weight for input 306
+c WARNING: Couldn't find weight for input 305
+c WARNING: Couldn't find weight for input 302
+c WARNING: Couldn't find weight for input 301
+c WARNING: Couldn't find weight for input 300
+c WARNING: Couldn't find weight for input 299
+c WARNING: Couldn't find weight for input 298
+c WARNING: Couldn't find weight for input 297
+c WARNING: Couldn't find weight for input 296
+c WARNING: Couldn't find weight for input 295
+c WARNING: Couldn't find weight for input 294
+c WARNING: Couldn't find weight for input 290
+c WARNING: Couldn't find weight for input 288
+c WARNING: Couldn't find weight for input 286
+c WARNING: Couldn't find weight for input 285
+c WARNING: Couldn't find weight for input 284
+c WARNING: Couldn't find weight for input 281
+c WARNING: Couldn't find weight for input 280
+c WARNING: Couldn't find weight for input 279
+c WARNING: Couldn't find weight for input 278
+c WARNING: Couldn't find weight for input 277
+c WARNING: Couldn't find weight for input 276
+c WARNING: Couldn't find weight for input 275
+c WARNING: Couldn't find weight for input 274
+c WARNING: Couldn't find weight for input 273
+c WARNING: Couldn't find weight for input 271
+c WARNING: Couldn't find weight for input 268
+c WARNING: Couldn't find weight for input 267
+c WARNING: Couldn't find weight for input 265
+c WARNING: Couldn't find weight for input 263
+c WARNING: Couldn't find weight for input 262
+c WARNING: Couldn't find weight for input 260
+c WARNING: Couldn't find weight for input 259
+c WARNING: Couldn't find weight for input 258
+c WARNING: Couldn't find weight for input 255
+c WARNING: Couldn't find weight for input 253
+c WARNING: Couldn't find weight for input 252
+c WARNING: Couldn't find weight for input 251
+c WARNING: Couldn't find weight for input 250
+c WARNING: Couldn't find weight for input 247
+c WARNING: Couldn't find weight for input 246
+c WARNING: Couldn't find weight for input 245
+c WARNING: Couldn't find weight for input 243
+c WARNING: Couldn't find weight for input 241
+c WARNING: Couldn't find weight for input 238
+c WARNING: Couldn't find weight for input 236
+c WARNING: Couldn't find weight for input 235
+c WARNING: Couldn't find weight for input 233
+c WARNING: Couldn't find weight for input 232
+c WARNING: Couldn't find weight for input 229
+c WARNING: Couldn't find weight for input 228
+c WARNING: Couldn't find weight for input 227
+c WARNING: Couldn't find weight for input 225
+c WARNING: Couldn't find weight for input 223
+c WARNING: Couldn't find weight for input 221
+c WARNING: Couldn't find weight for input 217
+c WARNING: Couldn't find weight for input 216
+c WARNING: Couldn't find weight for input 214
+c WARNING: Couldn't find weight for input 212
+c WARNING: Couldn't find weight for input 205
+c WARNING: Couldn't find weight for input 204
+c WARNING: Couldn't find weight for input 203
+c WARNING: Couldn't find weight for input 201
+c WARNING: Couldn't find weight for input 198
+c WARNING: Couldn't find weight for input 196
+c WARNING: Couldn't find weight for input 195
+c WARNING: Couldn't find weight for input 194
+c WARNING: Couldn't find weight for input 191
+c WARNING: Couldn't find weight for input 190
+c WARNING: Couldn't find weight for input 188
+c WARNING: Couldn't find weight for input 187
+c WARNING: Couldn't find weight for input 186
+c WARNING: Couldn't find weight for input 185
+c WARNING: Couldn't find weight for input 184
+c WARNING: Couldn't find weight for input 183
+c WARNING: Couldn't find weight for input 181
+c WARNING: Couldn't find weight for input 180
+c WARNING: Couldn't find weight for input 177
+c WARNING: Couldn't find weight for input 175
+c WARNING: Couldn't find weight for input 172
+c WARNING: Couldn't find weight for input 171
+c WARNING: Couldn't find weight for input 169
+c WARNING: Couldn't find weight for input 168
+c WARNING: Couldn't find weight for input 167
+c WARNING: Couldn't find weight for input 166
+c WARNING: Couldn't find weight for input 165
+c WARNING: Couldn't find weight for input 164
+c WARNING: Couldn't find weight for input 162
+c WARNING: Couldn't find weight for input 161
+c WARNING: Couldn't find weight for input 160
+c WARNING: Couldn't find weight for input 159
+c WARNING: Couldn't find weight for input 158
+c WARNING: Couldn't find weight for input 157
+c WARNING: Couldn't find weight for input 156
+c WARNING: Couldn't find weight for input 155
+c WARNING: Couldn't find weight for input 153
+c WARNING: Couldn't find weight for input 151
+c WARNING: Couldn't find weight for input 150
+c WARNING: Couldn't find weight for input 148
+c WARNING: Couldn't find weight for input 147
+c WARNING: Couldn't find weight for input 145
+c WARNING: Couldn't find weight for input 143
+c WARNING: Couldn't find weight for input 140
+c WARNING: Couldn't find weight for input 139
+c WARNING: Couldn't find weight for input 136
+c WARNING: Couldn't find weight for input 134
+c WARNING: Couldn't find weight for input 133
+c WARNING: Couldn't find weight for input 132
+c WARNING: Couldn't find weight for input 129
+c WARNING: Couldn't find weight for input 128
+c WARNING: Couldn't find weight for input 127
+c WARNING: Couldn't find weight for input 125
+c WARNING: Couldn't find weight for input 123
+c WARNING: Couldn't find weight for input 122
+c WARNING: Couldn't find weight for input 121
+c WARNING: Couldn't find weight for input 118
+c WARNING: Couldn't find weight for input 117
+c WARNING: Couldn't find weight for input 116
+c WARNING: Couldn't find weight for input 115
+c WARNING: Couldn't find weight for input 114
+c WARNING: Couldn't find weight for input 111
+c WARNING: Couldn't find weight for input 110
+c WARNING: Couldn't find weight for input 109
+c WARNING: Couldn't find weight for input 108
+c WARNING: Couldn't find weight for input 107
+c WARNING: Couldn't find weight for input 106
+c WARNING: Couldn't find weight for input 105
+c WARNING: Couldn't find weight for input 103
+c WARNING: Couldn't find weight for input 102
+c WARNING: Couldn't find weight for input 101
+c WARNING: Couldn't find weight for input 100
+c WARNING: Couldn't find weight for input 99
+c WARNING: Couldn't find weight for input 98
+c WARNING: Couldn't find weight for input 97
+c WARNING: Couldn't find weight for input 96
+c WARNING: Couldn't find weight for input 93
+c WARNING: Couldn't find weight for input 92
+c WARNING: Couldn't find weight for input 91
+c WARNING: Couldn't find weight for input 90
+c WARNING: Couldn't find weight for input 86
+c WARNING: Couldn't find weight for input 85
+c WARNING: Couldn't find weight for input 84
+c WARNING: Couldn't find weight for input 83
+c WARNING: Couldn't find weight for input 82
+c WARNING: Couldn't find weight for input 81
+c WARNING: Couldn't find weight for input 80
+c WARNING: Couldn't find weight for input 79
+c WARNING: Couldn't find weight for input 78
+c WARNING: Couldn't find weight for input 74
+c WARNING: Couldn't find weight for input 73
+c WARNING: Couldn't find weight for input 72
+c WARNING: Couldn't find weight for input 71
+c WARNING: Couldn't find weight for input 69
+c WARNING: Couldn't find weight for input 67
+c WARNING: Couldn't find weight for input 66
+c WARNING: Couldn't find weight for input 64
+c WARNING: Couldn't find weight for input 63
+c WARNING: Couldn't find weight for input 62
+c WARNING: Couldn't find weight for input 61
+c WARNING: Couldn't find weight for input 60
+c WARNING: Couldn't find weight for input 59
+c WARNING: Couldn't find weight for input 57
+c WARNING: Couldn't find weight for input 55
+c WARNING: Couldn't find weight for input 54
+c WARNING: Couldn't find weight for input 52
+c WARNING: Couldn't find weight for input 51
+c WARNING: Couldn't find weight for input 50
+c WARNING: Couldn't find weight for input 49
+c WARNING: Couldn't find weight for input 48
+c WARNING: Couldn't find weight for input 47
+c WARNING: Couldn't find weight for input 46
+c WARNING: Couldn't find weight for input 45
+c WARNING: Couldn't find weight for input 44
+c WARNING: Couldn't find weight for input 43
+c WARNING: Couldn't find weight for input 42
+c WARNING: Couldn't find weight for input 40
+c WARNING: Couldn't find weight for input 38
+c WARNING: Couldn't find weight for input 36
+c WARNING: Couldn't find weight for input 35
+c WARNING: Couldn't find weight for input 34
+c WARNING: Couldn't find weight for input 33
+c WARNING: Couldn't find weight for input 31
+c WARNING: Couldn't find weight for input 30
+c WARNING: Couldn't find weight for input 26
+c WARNING: Couldn't find weight for input 25
+c WARNING: Couldn't find weight for input 24
+c WARNING: Couldn't find weight for input 22
+c WARNING: Couldn't find weight for input 19
+c WARNING: Couldn't find weight for input 18
+c WARNING: Couldn't find weight for input 17
+c WARNING: Couldn't find weight for input 16
+c WARNING: Couldn't find weight for input 13
+c WARNING: Couldn't find weight for input 12
+c WARNING: Couldn't find weight for input 11
+c WARNING: Couldn't find weight for input 10
+c WARNING: Couldn't find weight for input 7
+c WARNING: Couldn't find weight for input 6
+c WARNING: Couldn't find weight for input 5
+c WARNING: Couldn't find weight for input 4
+c WARNING: Couldn't find weight for input 3
+c WARNING: Couldn't find weight for input 2
+c WARNING: Couldn't find weight for input 1
+c Time 30.69: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 380
+c PKC:    Data variables         : 374
+c PKC:    Eliminated variables   : 6
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 0
+c PKC:       Tseitin promoted    : 0
+c PKC:       Tseitin TOTAL       : 0
+c PKC:    Other projection vars  : 0
+c PKC:    Unused vars            : 0
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 1621
+c PKC:       BVE Elim clauses    : 0
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 0
+c PKC:       Clause TOTAL        : 1621
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   0
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 2506
+c PKC:    Initial POG Product    : 18696
+c PKC:    Initial POG Nodes      : 21202
+c PKC:    Initial POG Edges      : 2271581
+c PKC:    Initial POG Clauses    : 2292783
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 2506
+c PKC:    Total POG Product      : 18696
+c PKC:    Total POG Nodes        : 21202
+c PKC:    Total POG Edges        : 2271581
+c PKC:    Total POG Clauses      : 2292783
+c PKC: Final POG
+c PKC:    Final POG Sum          : 2506
+c PKC:    Final POG Product      : 4661
+c PKC:    Final POG Nodes        : 7167
+c PKC:    Final POG Edges        : 293594
+c PKC:    Final POG Clauses      : 300761
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 0
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 1
+c PKC:    XKC Clause MIN         : 1591
+c PKC:    XKC Clause AVG         : 1591.00
+c PKC:    XKC clause MAX         : 1591
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 0
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 1
+c PKC:    KC POG MIN             : 21202
+c PKC:    KC POG AVG             : 21202.00
+c PKC:    KC POG MAX             : 21202
+c PKC: Node Traversals:
+c PKC:       Total Product       : 0
+c PKC:         Data Sum          : 0
+c PKC:         Mutex Sum         : 0
+c PKC:         Tautology Sum     : 0
+c PKC:         Subsumed Sum      : 0
+c PKC:         Counted SS Sum    : 0
+c PKC:         Excluding Sum     : 0
+c PKC:       Total Sum           : 0
+c PKC:    Traverse TOTAL         : 0
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 0
+c PKC:    Only data variables    : 0
+c PKC:    Only projection vars   : 0
+c PKC:    Result reuse           : 0
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 0.00
+c PKC:    Classify/promote vars  : 0.00
+c PKC:    Initial KC time        : 30.41
+c PKC:    Other external KC time : 0.00
+c PKC:    Builtin KC time        : 0.00
+c PKC:    SAT time               : 0.00
+c PKC:    Ring evaluation time   : 0.17
+c PKC:    Other time             : 0.11
+c PKC:    Time TOTAL             : 30.69
+Unweighted count:307265
+Weighted count:0.0000000000000000000000000000000001582840634567204987434878313324799372219831753913424087152278405255695969076573543911115179330488204548520034069262686078220470186926134476857063486591157491993833646236826553775754050990895892482516263806275638226479419125930982785339821165215030485560593195515531610757188161791913116528565553308478234654025694347853612167162332466383075106095725085763302518316818381407644978591686832296322122741119947787918465020401648146528422861911660598258603666444876780582221889992695330707303772874946631417780905627363819434116741009322156667925641784253213604154671410139849310060912787764658395844308513742462811445730772876589642986911287694555348473003734302830618786172401617105993162416751717182611546987787097088062573216558884071872415737826578600372631377191872584691502855224080434346739591637931147538294887039706615821042859982977822511354928607094394688247798697981896992213446308285693789379969950156326175031798193425454004766978096521805824
+PKC LOG: Elapsed time = 30.712 seconds
+PKC OUTCOME: normal

@@ -1,0 +1,81 @@
+D4 LOG: Running /Users/bryant/repos/d4v2/d4v2 -i ./mc2023_track3_031.scnf -m ddnnf-compiler --dump-ddnnf ./mc2023_track3_031.nnf
+D4 LOG: Time limit 1000 seconds
+c [CONSTRUCTOR] Problem: ./mc2023_track3_031.scnf cnf
+c [INITIAL INPUT] [4m[32mStatistics about the input formula[0m
+c [INITIAL INPUT] Number of variables: 168
+c [INITIAL INPUT] Number of clauses: 623
+c [INITIAL INPUT] Number of binary clauses: 593
+c [INITIAL INPUT] Number of ternary clauses: 0
+c [INITIAL INPUT] Number of clauses larger than 3: 10
+c [INITIAL INPUT] Number of literals: 1285
+c
+c [CONSTRUCTOR] MethodManager: ddnnf-compiler
+c [CONSTRUCTOR] Preproc: basic cnf
+c [CONSTRUCTOR] Preproc solver: minisat cnf
+c [MAIN PREPROCESSED INPUT] [4m[32mStatistics about the preprocessed formula[0m
+c [PREPROCESSED INPUT] Number of variables: 168
+c [PREPROCESSED INPUT] Number of clauses: 623
+c [PREPROCESSED INPUT] Number of binary clauses: 593
+c [PREPROCESSED INPUT] Number of ternary clauses: 0
+c [PREPROCESSED INPUT] Number of clauses larger than 3: 10
+c [PREPROCESSED INPUT] Number of literals: 1285
+c
+c [MODE] Panic: 0
+c [CONSTRUCTOR] Solver: minisat cnf
+c [CONSTRUCTOR SPEC] Spec manager: dynamic cnf
+c [CONSTRUCTOR] Variable heuristic: vsads
+c [CONSTRUCTOR] Phase heuristic: polarity
+c [MODE] classic
+c [CONSTRUCTOR] Partitioner manager: decomposition-static-dual cnf reduceFormula(1) equivSimp(1) phase(none) dynamicPhase(0) staticPhase(0)
+c [CONSTRUCTOR] Switching between static and dynamic decomposition: none
+c [CONSTRUCTOR] Static partitioner: dual
+c [TREE DECOMPOSITION] Start tree decomposition generation ... done
+c [CACHE] Cache method used: list
+c [CONSTRUCTOR] Cache cleaning manager: expectation
+c [CONSTRUCTOR] Cache bucket manager: storage(not-touched)  representation(clause)  size_first_page(2147483648) size_additional_page(536870912)
+c [CACHE LIST CONSTRUCTOR]
+c [CONSTRUCTOR] Operation: method(ddnnf-compiler) float(0)
+c
+c Warm start process (11): 12/29
+c --------------------------------------------------------------------------------------------------------
+c |        time|     #posHit|     #negHit|      memory|      #split|     mem(MB)|  #dec. Node|     #cutter|
+c --------------------------------------------------------------------------------------------------------
+c |        0.05|       14131|        8195|      275734|       11591|        0.00|        8195|        1207|
+c |        0.11|       31351|       16391|      595662|       27994|        0.00|       16391|        1735|
+c |        0.18|       49560|       24584|      921941|       45267|        0.00|       24584|        2092|
+c |        0.25|       67019|       32777|     1266604|       61516|        0.00|       32777|        2842|
+c |        0.33|       84535|       40965|     1611383|       77890|        0.00|       40965|        3445|
+c |        0.41|      102914|       49154|     2015226|       96582|        0.00|       49154|        3734|
+c --------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of recursive call: 100119
+c Number of split formula: 98473
+c Number of decision: 50059
+c Number of paritioner calls: 3734
+c
+c [1m[34mCache Information[0m
+c Number of positive hit: 104818
+c Number of negative hit: 50059
+c Number of reduce calls: 0
+c Number of entry removedreduce: 0
+c
+c
+c Final time: 0.42
+c
+D4 LOG: Elapsed time = 0.541 seconds
+D4 OUTCOME: normal
+mc2023_track3_031. D4 NNF: LOG: size ./mc2023_track3_031.nnf 291499 lines 5219472 bytes
+GEN LOG: Running /Users/bryant/repos/model-counting/cpog/generator/cpog-generate -v 1 -p ./mc2023_track3_031.cnf ./mc2023_track3_031.nnf ./mc2023_track3_031.cpog
+GEN LOG: Time limit 1000 seconds
+c GEN: Time 0.00  Read input file with 168 variables and 623 clauses
+c Read D4 NNF file with 192946 nodes (92907 explicit) and 198592 edges
+c Compressed POG has 192557 nodes, root literal 192725, and 914326 defining clauses
+c POG has DAG size 914326 and tree size 165346644 ratio = 180.84
+c GEN: Time 0.40  Generated POG representation
+c GEN: POG created.  Exiting
+GEN LOG: Elapsed time = 0.414 seconds
+GEN OUTCOME: normal
+hybrid LOG: Elapsed time = 1.005 seconds
+hybrid OUTCOME: normal

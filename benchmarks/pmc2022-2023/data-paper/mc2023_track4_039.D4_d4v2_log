@@ -1,0 +1,75 @@
+D4 LOG: Running /Users/bryant/repos/d4v2/d4v2 -i ./mc2023_track4_039.scnf -m ddnnf-compiler --dump-ddnnf ./mc2023_track4_039.nnf
+D4 LOG: Time limit 4000 seconds
+c [CONSTRUCTOR] Problem: ./mc2023_track4_039.scnf cnf
+c [INITIAL INPUT] [4m[32mStatistics about the input formula[0m
+c [INITIAL INPUT] Number of variables: 47341
+c [INITIAL INPUT] Number of clauses: 4859
+c [INITIAL INPUT] Number of binary clauses: 1744
+c [INITIAL INPUT] Number of ternary clauses: 1109
+c [INITIAL INPUT] Number of clauses larger than 3: 100
+c [INITIAL INPUT] Number of literals: 9161
+c
+c [CONSTRUCTOR] MethodManager: ddnnf-compiler
+c [CONSTRUCTOR] Preproc: basic cnf
+c [CONSTRUCTOR] Preproc solver: minisat cnf
+c [MAIN PREPROCESSED INPUT] [4m[32mStatistics about the preprocessed formula[0m
+c [PREPROCESSED INPUT] Number of variables: 47341
+c [PREPROCESSED INPUT] Number of clauses: 4859
+c [PREPROCESSED INPUT] Number of binary clauses: 1744
+c [PREPROCESSED INPUT] Number of ternary clauses: 1109
+c [PREPROCESSED INPUT] Number of clauses larger than 3: 100
+c [PREPROCESSED INPUT] Number of literals: 9161
+c
+c [MODE] Panic: 0
+c [CONSTRUCTOR] Solver: minisat cnf
+c [CONSTRUCTOR SPEC] Spec manager: dynamic cnf
+c [CONSTRUCTOR] Variable heuristic: vsads
+c [CONSTRUCTOR] Phase heuristic: polarity
+c [MODE] classic
+c [CONSTRUCTOR] Partitioner manager: decomposition-static-dual cnf reduceFormula(1) equivSimp(1) phase(none) dynamicPhase(0) staticPhase(0)
+c [CONSTRUCTOR] Switching between static and dynamic decomposition: none
+c [CONSTRUCTOR] Static partitioner: dual
+c [TREE DECOMPOSITION] Start tree decomposition generation ... done
+c [CACHE] Cache method used: list
+c [CONSTRUCTOR] Cache cleaning manager: expectation
+c [CONSTRUCTOR] Cache bucket manager: storage(not-touched)  representation(clause)  size_first_page(2147483648) size_additional_page(536870912)
+c [CACHE LIST CONSTRUCTOR]
+c [CONSTRUCTOR] Operation: method(ddnnf-compiler) float(0)
+c
+c Warm start process (11): 22/29
+c --------------------------------------------------------------------------------------------------------
+c |        time|     #posHit|     #negHit|      memory|      #split|     mem(MB)|  #dec. Node|     #cutter|
+c --------------------------------------------------------------------------------------------------------
+c --------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of recursive call: 2659
+c Number of split formula: 43
+c Number of decision: 1329
+c Number of paritioner calls: 118
+c
+c [1m[34mCache Information[0m
+c Number of positive hit: 129
+c Number of negative hit: 1329
+c Number of reduce calls: 0
+c Number of entry removedreduce: 0
+c
+c
+c Final time: 0.07464
+c
+D4 LOG: Elapsed time = 0.219 seconds
+D4 OUTCOME: normal
+mc2023_track4_039. D4 NNF: LOG: size ./mc2023_track4_039.nnf 4048 lines 1164091 bytes
+GEN LOG: Running /Users/bryant/repos/model-counting/cpog/generator/cpog-generate -v 1 -p ./mc2023_track4_039.cnf ./mc2023_track4_039.nnf ./mc2023_track4_039.cpog
+GEN LOG: Time limit 10000 seconds
+c GEN: Time 0.00  Read input file with 47341 variables and 4859 clauses
+c Read D4 NNF file with 3974 nodes (1346 explicit) and 2702 edges
+c Compressed POG has 3940 nodes, root literal 51281, and 195780 defining clauses
+c POG has DAG size 195780 and tree size 212953 ratio = 1.09
+c GEN: Time 0.05  Generated POG representation
+c GEN: POG created.  Exiting
+GEN LOG: Elapsed time = 0.052 seconds
+GEN OUTCOME: normal
+hybrid LOG: Elapsed time = 0.276 seconds
+hybrid OUTCOME: normal

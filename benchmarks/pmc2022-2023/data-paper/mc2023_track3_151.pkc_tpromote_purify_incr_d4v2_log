@@ -1,0 +1,32 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2023_track3_151.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 272 declared variables, 1684 clauses, 56 data variables
+c Initial BCP/BVE found 40 unit literals and eliminated 28 variables
+c Variable analysis found and/or created 1 Tseitin variables
+c After preprocessing, have 0+1 Tseitin and 153 non-Tseitin projection variables
+c Initial POG created.  492230 nodes, 3549683 edges,  4041913 clauses. Root literal = 492502
+c Time 4.36: Initial compilation completed
+c WARNING: Attempt to set literal 275 by BCP that is already unit
+c WARNING: Attempt to set literal 279 by BCP that is already unit
+c WARNING: Attempt to set literal 275 by BCP that is already unit
+c WARNING: Attempt to set literal 279 by BCP that is already unit
+c WARNING: Attempt to set literal 292 by BCP that is already unit
+c WARNING: Attempt to set literal 274 by BCP that is already unit
+c WARNING: Attempt to set literal 275 by BCP that is already unit
+c WARNING: Attempt to set literal 279 by BCP that is already unit
+c WARNING: Attempt to set literal 275 by BCP that is already unit
+c WARNING: Attempt to set literal 279 by BCP that is already unit
+c WARNING: Attempt to set literal 274 by BCP that is already unit
+c WARNING: Attempt to set literal 274 by BCP that is already unit
+c WARNING: Attempt to set literal 278 by BCP that is already unit
+c WARNING: Attempt to set literal 278 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.056 seconds
+PKC OUTCOME: Timeout

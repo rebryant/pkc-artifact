@@ -1,0 +1,17 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T n -m m ./majt-61.cnf
+PKC LOG: Time limit 1000 seconds
+c PKC: Program options
+c PKC:   Mode                      monolithic
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling none
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          0
+c CNF file loaded 1021 declared variables, 3781 clauses, 61 data variables
+c Initial BCP/BVE found 31 unit literals and eliminated 0 variables
+c After preprocessing, have 0+0 Tseitin and 929 non-Tseitin projection variables
+c Initial POG created.  4564 nodes, 12456 edges,  17020 clauses. Root literal = 5585
+c Time 0.35: Initial compilation completed
+PKC ERROR: Timeout after 1000 seconds
+PKC LOG: Elapsed time = 999.976 seconds
+PKC OUTCOME: Timeout

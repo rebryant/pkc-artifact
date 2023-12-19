@@ -1,0 +1,94 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_161.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 170 declared variables, 1366 clauses, 51 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 113 non-Tseitin projection variables
+c Initial POG created.  7037339 nodes, 269515626 edges,  276552965 clauses. Root literal = 7037509
+c Time 528.00: Initial compilation completed
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 175 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 175 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 181 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 179 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 175 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 171 by BCP that is already unit
+c WARNING: Attempt to set literal 171 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 179 by BCP that is already unit
+c WARNING: Attempt to set literal 180 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 179 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 173 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 177 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 178 by BCP that is already unit
+c WARNING: Attempt to set literal 174 by BCP that is already unit
+c WARNING: Attempt to set literal 185 by BCP that is already unit
+c WARNING: Attempt to set literal 176 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 175 by BCP that is already unit
+c WARNING: Attempt to set literal 175 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+c WARNING: Attempt to set literal 172 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.044 seconds
+PKC OUTCOME: Timeout

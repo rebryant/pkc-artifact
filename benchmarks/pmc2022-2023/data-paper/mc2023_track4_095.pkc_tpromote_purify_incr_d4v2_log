@@ -1,0 +1,36 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2023_track4_095.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 66 declared variables, 66 clauses, 31 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 9 Tseitin variables
+c After preprocessing, have 0+9 Tseitin and 26 non-Tseitin projection variables
+c Initial POG created.  1178141 nodes, 3209376 edges,  4387517 clauses. Root literal = 1178207
+c Time 4.72: Initial compilation completed
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+c WARNING: Attempt to set literal 76 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.042 seconds
+PKC OUTCOME: Timeout

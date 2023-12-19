@@ -1,0 +1,124 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_057.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 279 declared variables, 3272 clauses, 70 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 5 Tseitin variables
+c After preprocessing, have 0+5 Tseitin and 204 non-Tseitin projection variables
+c Initial POG created.  380164 nodes, 1870285 edges,  2250449 clauses. Root literal = 380443
+c Time 3.73: Initial compilation completed
+c WARNING: Attempt to set literal 289 by BCP that is already unit
+c WARNING: Attempt to set literal -283 by BCP that is already unit
+c WARNING: Attempt to set literal -283 by BCP that is already unit
+c WARNING: Attempt to set literal 286 by BCP that is already unit
+c WARNING: Attempt to set literal 289 by BCP that is already unit
+c WARNING: Attempt to set literal 287 by BCP that is already unit
+c WARNING: Attempt to set literal 287 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 291 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 291 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 286 by BCP that is already unit
+c WARNING: Attempt to set literal 286 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c WARNING: Attempt to set literal 289 by BCP that is already unit
+c WARNING: Attempt to set literal 290 by BCP that is already unit
+c Time 3007.63: Projecting compilation completed
+c Time 3007.65: Unweighted count completed
+c Time 3007.70: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 279
+c PKC:    Data variables         : 70
+c PKC:    Eliminated variables   : 0
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 0
+c PKC:       Tseitin promoted    : 5
+c PKC:       Tseitin TOTAL       : 5
+c PKC:    Other projection vars  : 204
+c PKC:    Unused vars            : 0
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 3272
+c PKC:       BVE Elim clauses    : 0
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 10
+c PKC:       Clause TOTAL        : 3282
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   306
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 138424
+c PKC:    Initial POG Product    : 241740
+c PKC:    Initial POG Nodes      : 380164
+c PKC:    Initial POG Edges      : 1870285
+c PKC:    Initial POG Clauses    : 2250449
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 184268
+c PKC:    Total POG Product      : 313071
+c PKC:    Total POG Nodes        : 497339
+c PKC:    Total POG Edges        : 2417496
+c PKC:    Total POG Clauses      : 2914835
+c PKC: Final POG
+c PKC:    Final POG Sum          : 14485
+c PKC:    Final POG Product      : 22762
+c PKC:    Final POG Nodes        : 37247
+c PKC:    Final POG Edges        : 176754
+c PKC:    Final POG Clauses      : 214001
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 81468
+c PKC:    SAT Clause MIN         : 1
+c PKC:    SAT Clause AVG         : 154.12
+c PKC:    SAT Clause MAX         : 215000
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 4854
+c PKC:    XKC Clause MIN         : 73
+c PKC:    XKC Clause AVG         : 777.29
+c PKC:    XKC clause MAX         : 177722
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 29273
+c PKC:    BKC Clause MIN         : 2
+c PKC:    BKC Clause AVG         : 24.54
+c PKC:    BKC clause MAX         : 1088
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 34127
+c PKC:    KC POG MIN             : 0
+c PKC:    KC POG AVG             : 23.72
+c PKC:    KC POG MAX             : 380164
+c PKC: Node Traversals:
+c PKC:       Total Product       : 125321
+c PKC:         Data Sum          : 10209
+c PKC:         Mutex Sum         : 2701
+c PKC:         Tautology Sum     : 4248
+c PKC:         Subsumed Sum      : 40469
+c PKC:         Counted SS Sum    : 17114
+c PKC:         Excluding Sum     : 3940
+c PKC:       Total Sum           : 78681
+c PKC:    Traverse TOTAL         : 204002
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 29273
+c PKC:    Only data variables    : 35686
+c PKC:    Only projection vars   : 23381
+c PKC:    Result reuse           : 52689
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 0.02
+c PKC:    Classify/promote vars  : 0.02
+c PKC:    Initial KC time        : 3.00
+c PKC:    Other external KC time : 110.04
+c PKC:    Builtin KC time        : 2869.67
+c PKC:    SAT time               : 3.91
+c PKC:    Ring evaluation time   : 2.71
+c PKC:    Other time             : 18.37
+c PKC:    Time TOTAL             : 3007.75
+Unweighted count:38908
+Weighted count:0.0000000000000000012643141289366754916319850661954816454984417659094266896813509539681076782906015815213392242096865019768096739356677077222478019881978019861869658236013421560176051511661257575200801006536027004198629730479615587489000606815866881563796558830833492182756526892940438961460027257440321939339749368458174789412898938753512302223348208426653861343377593468217756926089605041641406131021129392765853634440045067567828519438400840706458223540445956432084812037210378725555120781853306436221591435650127441638360212727968556908544
+PKC LOG: Elapsed time = 3007.773 seconds
+PKC OUTCOME: normal

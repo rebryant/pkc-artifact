@@ -1,0 +1,167 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_099.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 330 declared variables, 6819 clauses, 38 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 292 non-Tseitin projection variables
+c Initial POG created.  111623689 nodes, 582006112 edges,  693629801 clauses. Root literal = 111624019
+c Time 711.34: Initial compilation completed
+c WARNING: Attempt to set literal 343 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 338 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 331 by BCP that is already unit
+c WARNING: Attempt to set literal 331 by BCP that is already unit
+c WARNING: Attempt to set literal 331 by BCP that is already unit
+c WARNING: Attempt to set literal 331 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 344 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 332 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 338 by BCP that is already unit
+c WARNING: Attempt to set literal 332 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 343 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 342 by BCP that is already unit
+c WARNING: Attempt to set literal 347 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 338 by BCP that is already unit
+c WARNING: Attempt to set literal 343 by BCP that is already unit
+c WARNING: Attempt to set literal 345 by BCP that is already unit
+c WARNING: Attempt to set literal 347 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal -334 by BCP that is already unit
+c WARNING: Attempt to set literal 338 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 333 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 337 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 343 by BCP that is already unit
+c WARNING: Attempt to set literal 339 by BCP that is already unit
+c WARNING: Attempt to set literal 340 by BCP that is already unit
+c WARNING: Attempt to set literal 343 by BCP that is already unit
+c WARNING: Attempt to set literal 336 by BCP that is already unit
+c WARNING: Attempt to set literal 341 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 335 by BCP that is already unit
+c WARNING: Attempt to set literal 338 by BCP that is already unit
+c WARNING: Attempt to set literal 359 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+c WARNING: Attempt to set literal 334 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.330 seconds
+PKC OUTCOME: Timeout

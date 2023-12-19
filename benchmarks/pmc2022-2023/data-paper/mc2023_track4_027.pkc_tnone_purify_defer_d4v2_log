@@ -1,0 +1,95 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T n -m d -2 ./mc2023_track4_027.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      deferred
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling none
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 10270 declared variables, 15904 clauses, 55 data variables
+c Initial BCP/BVE found 6539 unit literals and eliminated 0 variables
+c After preprocessing, have 0+0 Tseitin and 3709 non-Tseitin projection variables
+c Initial POG created.  24 nodes, 166 edges,  190 clauses. Root literal = 10294
+c Time 0.09: Initial compilation completed
+c Time 0.09: Projecting compilation completed
+c Time 0.09: Unweighted count completed
+c Time 0.09: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 10270
+c PKC:    Data variables         : 22
+c PKC:    Eliminated variables   : 6539
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 0
+c PKC:       Tseitin promoted    : 0
+c PKC:       Tseitin TOTAL       : 0
+c PKC:    Other projection vars  : 3709
+c PKC:    Unused vars            : 0
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 15904
+c PKC:       BVE Elim clauses    : 0
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 0
+c PKC:       Clause TOTAL        : 15904
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   0
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 7
+c PKC:    Initial POG Product    : 17
+c PKC:    Initial POG Nodes      : 24
+c PKC:    Initial POG Edges      : 166
+c PKC:    Initial POG Clauses    : 190
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 7
+c PKC:    Total POG Product      : 17
+c PKC:    Total POG Nodes        : 24
+c PKC:    Total POG Edges        : 166
+c PKC:    Total POG Clauses      : 190
+c PKC: Final POG
+c PKC:    Final POG Sum          : 7
+c PKC:    Final POG Product      : 15
+c PKC:    Final POG Nodes        : 22
+c PKC:    Final POG Edges        : 156
+c PKC:    Final POG Clauses      : 178
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 0
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 1
+c PKC:    XKC Clause MIN         : 15904
+c PKC:    XKC Clause AVG         : 15904.00
+c PKC:    XKC clause MAX         : 15904
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 0
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 1
+c PKC:    KC POG MIN             : 24
+c PKC:    KC POG AVG             : 24.00
+c PKC:    KC POG MAX             : 24
+c PKC: Node Traversals:
+c PKC:       Total Product       : 0
+c PKC:         Data Sum          : 0
+c PKC:         Mutex Sum         : 0
+c PKC:         Subsumed Sum      : 0
+c PKC:         Counted SS Sum    : 0
+c PKC:         Excluding Sum     : 0
+c PKC:       Total Sum           : 0
+c PKC:    Traverse TOTAL         : 0
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 0
+c PKC:    Only data variables    : 0
+c PKC:    Only projection vars   : 0
+c PKC:    Result reuse           : 0
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 0.00
+c PKC:    Classify/promote vars  : 0.00
+c PKC:    Initial KC time        : 0.07
+c PKC:    Other external KC time : 0.00
+c PKC:    Builtin KC time        : 0.00
+c PKC:    SAT time               : 0.00
+c PKC:    Ring evaluation time   : 0.00
+c PKC:    Other time             : 0.01
+c PKC:    Time TOTAL             : 0.09
+Unweighted count:10
+Weighted count:0.00000000000000000038072817628935655884771254139549613106177943304360983958648193220219896274791729714489587256931253221369592959730691562281222220727714123226952354004838501024472739120850407459023884714588222047590979832802310558141780018399453608437305281077445860888745969323030969560189866086397202311062115284129792740193983454695188861405452479247727686363745908491165451897685216907829767970871679089603901124292249321996288
+PKC LOG: Elapsed time = 0.109 seconds
+PKC OUTCOME: normal

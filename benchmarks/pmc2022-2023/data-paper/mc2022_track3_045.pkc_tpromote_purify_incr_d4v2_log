@@ -1,0 +1,18 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_045.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 77920 declared variables, 11956 clauses, 160 data variables
+c Initial BCP/BVE found 1742 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 1157 Tseitin variables
+c After preprocessing, have 952+205 Tseitin and 1471 non-Tseitin projection variables
+c Initial POG created.  41044 nodes, 1523258 edges,  1564302 clauses. Root literal = 118964
+c Time 9.81: Initial compilation completed
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.310 seconds
+PKC OUTCOME: Timeout

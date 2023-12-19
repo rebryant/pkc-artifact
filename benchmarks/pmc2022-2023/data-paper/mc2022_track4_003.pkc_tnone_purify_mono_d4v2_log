@@ -1,0 +1,18 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T n -m m -2 ./mc2022_track4_003.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      monolithic
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling none
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          0
+c CNF file loaded 90 declared variables, 430 clauses, 5 data variables
+c Initial BCP/BVE found 6 unit literals and eliminated 0 variables
+c After preprocessing, have 0+0 Tseitin and 79 non-Tseitin projection variables
+c Initial POG created.  435442 nodes, 871853 edges,  1307295 clauses. Root literal = 2147483647
+c Time 146.46: Initial compilation completed
+c ERROR: Attempted to get type of variable 2147483647
+PKC ERROR: Return code = 1
+PKC LOG: Jobs: NonePKC LOG: Elapsed time = 146.525 seconds
+PKC OUTCOME: failed

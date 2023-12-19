@@ -1,0 +1,239 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T n -m d -2 ./mc2023_track4_081.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      deferred
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling none
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 216 declared variables, 1771 clauses, 216 data variables
+c Initial BCP/BVE found 19 unit literals and eliminated 0 variables
+c After preprocessing, have 0+0 Tseitin and 0 non-Tseitin projection variables
+c Initial POG created.  1536306 nodes, 89786834 edges,  91323140 clauses. Root literal = 1536522
+c Time 566.86: Initial compilation completed
+c Time 567.07: Projecting compilation completed
+c Time 568.11: Unweighted count completed
+c WARNING: Couldn't find weight for input 215
+c WARNING: Couldn't find weight for input 214
+c WARNING: Couldn't find weight for input 213
+c WARNING: Couldn't find weight for input 212
+c WARNING: Couldn't find weight for input 209
+c WARNING: Couldn't find weight for input 208
+c WARNING: Couldn't find weight for input 206
+c WARNING: Couldn't find weight for input 205
+c WARNING: Couldn't find weight for input 204
+c WARNING: Couldn't find weight for input 203
+c WARNING: Couldn't find weight for input 199
+c WARNING: Couldn't find weight for input 196
+c WARNING: Couldn't find weight for input 194
+c WARNING: Couldn't find weight for input 193
+c WARNING: Couldn't find weight for input 192
+c WARNING: Couldn't find weight for input 191
+c WARNING: Couldn't find weight for input 190
+c WARNING: Couldn't find weight for input 189
+c WARNING: Couldn't find weight for input 188
+c WARNING: Couldn't find weight for input 187
+c WARNING: Couldn't find weight for input 186
+c WARNING: Couldn't find weight for input 185
+c WARNING: Couldn't find weight for input 184
+c WARNING: Couldn't find weight for input 183
+c WARNING: Couldn't find weight for input 182
+c WARNING: Couldn't find weight for input 181
+c WARNING: Couldn't find weight for input 179
+c WARNING: Couldn't find weight for input 178
+c WARNING: Couldn't find weight for input 177
+c WARNING: Couldn't find weight for input 176
+c WARNING: Couldn't find weight for input 175
+c WARNING: Couldn't find weight for input 174
+c WARNING: Couldn't find weight for input 172
+c WARNING: Couldn't find weight for input 171
+c WARNING: Couldn't find weight for input 170
+c WARNING: Couldn't find weight for input 169
+c WARNING: Couldn't find weight for input 168
+c WARNING: Couldn't find weight for input 167
+c WARNING: Couldn't find weight for input 165
+c WARNING: Couldn't find weight for input 164
+c WARNING: Couldn't find weight for input 163
+c WARNING: Couldn't find weight for input 160
+c WARNING: Couldn't find weight for input 158
+c WARNING: Couldn't find weight for input 157
+c WARNING: Couldn't find weight for input 155
+c WARNING: Couldn't find weight for input 151
+c WARNING: Couldn't find weight for input 150
+c WARNING: Couldn't find weight for input 149
+c WARNING: Couldn't find weight for input 148
+c WARNING: Couldn't find weight for input 147
+c WARNING: Couldn't find weight for input 146
+c WARNING: Couldn't find weight for input 145
+c WARNING: Couldn't find weight for input 144
+c WARNING: Couldn't find weight for input 143
+c WARNING: Couldn't find weight for input 142
+c WARNING: Couldn't find weight for input 141
+c WARNING: Couldn't find weight for input 140
+c WARNING: Couldn't find weight for input 139
+c WARNING: Couldn't find weight for input 137
+c WARNING: Couldn't find weight for input 134
+c WARNING: Couldn't find weight for input 131
+c WARNING: Couldn't find weight for input 130
+c WARNING: Couldn't find weight for input 129
+c WARNING: Couldn't find weight for input 128
+c WARNING: Couldn't find weight for input 126
+c WARNING: Couldn't find weight for input 125
+c WARNING: Couldn't find weight for input 124
+c WARNING: Couldn't find weight for input 122
+c WARNING: Couldn't find weight for input 120
+c WARNING: Couldn't find weight for input 117
+c WARNING: Couldn't find weight for input 116
+c WARNING: Couldn't find weight for input 114
+c WARNING: Couldn't find weight for input 110
+c WARNING: Couldn't find weight for input 106
+c WARNING: Couldn't find weight for input 105
+c WARNING: Couldn't find weight for input 103
+c WARNING: Couldn't find weight for input 102
+c WARNING: Couldn't find weight for input 100
+c WARNING: Couldn't find weight for input 99
+c WARNING: Couldn't find weight for input 98
+c WARNING: Couldn't find weight for input 97
+c WARNING: Couldn't find weight for input 96
+c WARNING: Couldn't find weight for input 95
+c WARNING: Couldn't find weight for input 92
+c WARNING: Couldn't find weight for input 91
+c WARNING: Couldn't find weight for input 90
+c WARNING: Couldn't find weight for input 88
+c WARNING: Couldn't find weight for input 87
+c WARNING: Couldn't find weight for input 83
+c WARNING: Couldn't find weight for input 82
+c WARNING: Couldn't find weight for input 81
+c WARNING: Couldn't find weight for input 80
+c WARNING: Couldn't find weight for input 78
+c WARNING: Couldn't find weight for input 75
+c WARNING: Couldn't find weight for input 73
+c WARNING: Couldn't find weight for input 72
+c WARNING: Couldn't find weight for input 70
+c WARNING: Couldn't find weight for input 68
+c WARNING: Couldn't find weight for input 67
+c WARNING: Couldn't find weight for input 66
+c WARNING: Couldn't find weight for input 64
+c WARNING: Couldn't find weight for input 63
+c WARNING: Couldn't find weight for input 61
+c WARNING: Couldn't find weight for input 60
+c WARNING: Couldn't find weight for input 59
+c WARNING: Couldn't find weight for input 58
+c WARNING: Couldn't find weight for input 54
+c WARNING: Couldn't find weight for input 53
+c WARNING: Couldn't find weight for input 52
+c WARNING: Couldn't find weight for input 51
+c WARNING: Couldn't find weight for input 50
+c WARNING: Couldn't find weight for input 48
+c WARNING: Couldn't find weight for input 45
+c WARNING: Couldn't find weight for input 44
+c WARNING: Couldn't find weight for input 41
+c WARNING: Couldn't find weight for input 40
+c WARNING: Couldn't find weight for input 38
+c WARNING: Couldn't find weight for input 37
+c WARNING: Couldn't find weight for input 36
+c WARNING: Couldn't find weight for input 34
+c WARNING: Couldn't find weight for input 32
+c WARNING: Couldn't find weight for input 31
+c WARNING: Couldn't find weight for input 30
+c WARNING: Couldn't find weight for input 27
+c WARNING: Couldn't find weight for input 26
+c WARNING: Couldn't find weight for input 25
+c WARNING: Couldn't find weight for input 24
+c WARNING: Couldn't find weight for input 23
+c WARNING: Couldn't find weight for input 22
+c WARNING: Couldn't find weight for input 21
+c WARNING: Couldn't find weight for input 20
+c WARNING: Couldn't find weight for input 18
+c WARNING: Couldn't find weight for input 17
+c WARNING: Couldn't find weight for input 15
+c WARNING: Couldn't find weight for input 14
+c WARNING: Couldn't find weight for input 13
+c WARNING: Couldn't find weight for input 12
+c WARNING: Couldn't find weight for input 10
+c WARNING: Couldn't find weight for input 7
+c WARNING: Couldn't find weight for input 6
+c WARNING: Couldn't find weight for input 5
+c WARNING: Couldn't find weight for input 3
+c WARNING: Couldn't find weight for input 2
+c WARNING: Couldn't find weight for input 1
+c Time 571.47: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 216
+c PKC:    Data variables         : 197
+c PKC:    Eliminated variables   : 19
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 0
+c PKC:       Tseitin promoted    : 0
+c PKC:       Tseitin TOTAL       : 0
+c PKC:    Other projection vars  : 0
+c PKC:    Unused vars            : 0
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 1771
+c PKC:       BVE Elim clauses    : 0
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 0
+c PKC:       Clause TOTAL        : 1771
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   0
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 203684
+c PKC:    Initial POG Product    : 1332622
+c PKC:    Initial POG Nodes      : 1536306
+c PKC:    Initial POG Edges      : 89786834
+c PKC:    Initial POG Clauses    : 91323140
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 203684
+c PKC:    Total POG Product      : 1332622
+c PKC:    Total POG Nodes        : 1536306
+c PKC:    Total POG Edges        : 89786834
+c PKC:    Total POG Clauses      : 91323140
+c PKC: Final POG
+c PKC:    Final POG Sum          : 203684
+c PKC:    Final POG Product      : 392376
+c PKC:    Final POG Nodes        : 596060
+c PKC:    Final POG Edges        : 14050425
+c PKC:    Final POG Clauses      : 14646485
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 0
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 1
+c PKC:    XKC Clause MIN         : 1771
+c PKC:    XKC Clause AVG         : 1771.00
+c PKC:    XKC clause MAX         : 1771
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 0
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 1
+c PKC:    KC POG MIN             : 1536306
+c PKC:    KC POG AVG             : 1536306.00
+c PKC:    KC POG MAX             : 1536306
+c PKC: Node Traversals:
+c PKC:       Total Product       : 0
+c PKC:         Data Sum          : 0
+c PKC:         Mutex Sum         : 0
+c PKC:         Subsumed Sum      : 0
+c PKC:         Counted SS Sum    : 0
+c PKC:         Excluding Sum     : 0
+c PKC:       Total Sum           : 0
+c PKC:    Traverse TOTAL         : 0
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 0
+c PKC:    Only data variables    : 0
+c PKC:    Only projection vars   : 0
+c PKC:    Result reuse           : 0
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 0.00
+c PKC:    Classify/promote vars  : 0.00
+c PKC:    Initial KC time        : 560.60
+c PKC:    Other external KC time : 0.00
+c PKC:    Builtin KC time        : 0.00
+c PKC:    SAT time               : 0.00
+c PKC:    Ring evaluation time   : 4.39
+c PKC:    Other time             : 6.63
+c PKC:    Time TOTAL             : 571.62
+Unweighted count:2317300
+Weighted count:0.00000000000000009561698916528508868786640690406171298145546917394137968896164119188152141729252587867834252235210397454031714713078227602473325866358633627145741527770021104642722893994859902156599258492896572638914291715581502957715999593706582216590221481596673185521980543330503075154482665319413652188420477964834011901747666408171752393620225056969242748664718847538233849109228308510988299530225279597774678844156871431978133523875131228544041482066218190026288249798702528847442774490154413366208793929049124254996775903507146695242435706697006811447296
+PKC LOG: Elapsed time = 571.657 seconds
+PKC OUTCOME: normal

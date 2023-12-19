@@ -1,0 +1,99 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track3_023.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 87886 declared variables, 14434 clauses, 180 data variables
+c Initial BCP/BVE found 1750 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 1520 Tseitin variables
+c After preprocessing, have 1276+244 Tseitin and 1640 non-Tseitin projection variables
+c Initial POG created.  15223 nodes, 292924 edges,  308147 clauses. Root literal = 103109
+c Time 13.49: Initial compilation completed
+c Time 430.11: Projecting compilation completed
+c Time 430.21: Unweighted count completed
+c Time 430.21: Everything completed
+c PKC: Input Formula
+c PKC:    Declared Variables     : 87886
+c PKC:    Data variables         : 180
+c PKC:    Eliminated variables   : 1750
+c PKC:    Tseitin variables:
+c PKC:       Tseitin original    : 1276
+c PKC:       Tseitin promoted    : 244
+c PKC:       Tseitin TOTAL       : 1520
+c PKC:    Other projection vars  : 1640
+c PKC:    Unused vars            : 82796
+c PKC:    Problem Clauses:
+c PKC:       Input clauses       : 14434
+c PKC:       BVE Elim clauses    : 0
+c PKC:       BVE Added clauses   : 0
+c PKC:       Promoting clauses   : 478
+c PKC:       Clause TOTAL        : 14912
+c PKC: Preprocessing
+c PKC:   Tseitin variable tests:   4072
+c PKC: Initial POG
+c PKC:    Initial POG Sum        : 4719
+c PKC:    Initial POG Product    : 10504
+c PKC:    Initial POG Nodes      : 15223
+c PKC:    Initial POG Edges      : 292924
+c PKC:    Initial POG Clauses    : 308147
+c PKC: POG nodes generated
+c PKC:    Total POG Sum          : 74922
+c PKC:    Total POG Product      : 131641
+c PKC:    Total POG Nodes        : 206563
+c PKC:    Total POG Edges        : 942747
+c PKC:    Total POG Clauses      : 1149310
+c PKC: Final POG
+c PKC:    Final POG Sum          : 70203
+c PKC:    Final POG Product      : 107117
+c PKC:    Final POG Nodes        : 177320
+c PKC:    Final POG Edges        : 586811
+c PKC:    Final POG Clauses      : 764131
+c PKC: SAT calls
+c PKC:    SAT TOTAL              : 3049
+c PKC:    SAT Clause MIN         : 3
+c PKC:    SAT Clause AVG         : 2006.14
+c PKC:    SAT Clause MAX         : 563422
+c PKC: External KC calls
+c PKC:    External KC TOTAL      : 71
+c PKC:    XKC Clause MIN         : 927
+c PKC:    XKC Clause AVG         : 11083.56
+c PKC:    XKC clause MAX         : 563422
+c PKC: Builtin KC calls
+c PKC:    Builtin KC TOTAL       : 0
+c PKC: KC added POG nodes
+c PKC:    KC Invocations         : 71
+c PKC:    KC POG MIN             : 1
+c PKC:    KC POG AVG             : 2886.21
+c PKC:    KC POG MAX             : 60910
+c PKC: Node Traversals:
+c PKC:       Total Product       : 9415
+c PKC:         Data Sum          : 664
+c PKC:         Mutex Sum         : 165
+c PKC:         Tautology Sum     : 3820
+c PKC:         Subsumed Sum      : 0
+c PKC:         Counted SS Sum    : 0
+c PKC:         Excluding Sum     : 70
+c PKC:       Total Sum           : 4719
+c PKC:    Traverse TOTAL         : 14134
+c PKC: PKC Optimizations:
+c PKC:    Built-in KC            : 0
+c PKC:    Only data variables    : 70
+c PKC:    Only projection vars   : 0
+c PKC:    Result reuse           : 3558
+c PKC: Time
+c PKC:    Preprocess (BCP+BVE)   : 12.40
+c PKC:    Classify/promote vars  : 12.40
+c PKC:    Initial KC time        : 1.02
+c PKC:    Other external KC time : 370.62
+c PKC:    Builtin KC time        : 0.00
+c PKC:    SAT time               : 7.10
+c PKC:    Ring evaluation time   : 0.42
+c PKC:    Other time             : 26.27
+c PKC:    Time TOTAL             : 430.23
+Unweighted count:38532729196999898921985272480607446060103329462091776
+PKC LOG: Elapsed time = 430.253 seconds
+PKC OUTCOME: normal

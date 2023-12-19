@@ -1,0 +1,71 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2023_track4_137.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 80 declared variables, 456 clauses, 60 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 0 Tseitin variables
+c After preprocessing, have 0+0 Tseitin and 20 non-Tseitin projection variables
+c Initial POG created.  46948465 nodes, 275301948 edges,  322250413 clauses. Root literal = 46948545
+c Time 402.41: Initial compilation completed
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 92 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 92 by BCP that is already unit
+c WARNING: Attempt to set literal 82 by BCP that is already unit
+c WARNING: Attempt to set literal 82 by BCP that is already unit
+c WARNING: Attempt to set literal 82 by BCP that is already unit
+c WARNING: Attempt to set literal 90 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 93 by BCP that is already unit
+c WARNING: Attempt to set literal 93 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 91 by BCP that is already unit
+c WARNING: Attempt to set literal 84 by BCP that is already unit
+c WARNING: Attempt to set literal 82 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 84 by BCP that is already unit
+c WARNING: Attempt to set literal 84 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 88 by BCP that is already unit
+c WARNING: Attempt to set literal 91 by BCP that is already unit
+c WARNING: Attempt to set literal 91 by BCP that is already unit
+c WARNING: Attempt to set literal 89 by BCP that is already unit
+c WARNING: Attempt to set literal 89 by BCP that is already unit
+c WARNING: Attempt to set literal 85 by BCP that is already unit
+c WARNING: Attempt to set literal 85 by BCP that is already unit
+c WARNING: Attempt to set literal 85 by BCP that is already unit
+c WARNING: Attempt to set literal 85 by BCP that is already unit
+c WARNING: Attempt to set literal 88 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 83 by BCP that is already unit
+c WARNING: Attempt to set literal 89 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 96 by BCP that is already unit
+c WARNING: Attempt to set literal 90 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 87 by BCP that is already unit
+c WARNING: Attempt to set literal 87 by BCP that is already unit
+c WARNING: Attempt to set literal 86 by BCP that is already unit
+c WARNING: Attempt to set literal 94 by BCP that is already unit
+PKC ERROR: Timeout after 4000 seconds
+PKC LOG: Elapsed time = 4000.256 seconds
+PKC OUTCOME: Timeout

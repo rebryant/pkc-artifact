@@ -1,0 +1,39 @@
+#!/bin/sh
+make majt N=03
+make majt N=05
+make majt N=07
+make majt N=09
+make majt N=11
+make majt N=13
+make majt N=15
+make majt N=17
+make majt N=21
+make majt N=25
+make majt N=27
+make majt N=29
+make majt N=31
+make majt N=39
+make majt N=49
+make majt N=61
+make majt N=75
+make majt N=87
+make majt N=99
+
+make majp N=03
+make majp N=05
+make majp N=07
+make majp N=09
+make majp N=11
+make majp N=13
+make majp N=15
+make majp N=17
+make majp N=21
+make majp N=25
+make majp N=31
+make majp N=39
+make majp N=49
+make majp N=61
+make majp N=75
+make majp N=87
+make majp N=99
+

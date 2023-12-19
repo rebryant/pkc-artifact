@@ -1,0 +1,19 @@
+PKC LOG: Running pkc -v 1 -L backup.log -P 2 -T p -m i -2 ./mc2022_track4_093.cnf
+PKC LOG: Time limit 4000 seconds
+c PKC: Program options
+c PKC:   Mode                      incremental
+c PKC:   D4 version                v2
+c PKC:   Preprocess level          2
+c PKC:   Tseitin variable handling promote
+c PKC:   Optimization level        4
+c PKC:   Builtin KC limit          70
+c CNF file loaded 66 declared variables, 66 clauses, 37 data variables
+c Initial BCP/BVE found 0 unit literals and eliminated 0 variables
+c Variable analysis found and/or created 17 Tseitin variables
+c After preprocessing, have 0+17 Tseitin and 12 non-Tseitin projection variables
+c Initial POG created.  970887 nodes, 2684318 edges,  3655205 clauses. Root literal = 970953
+c Time 3.77: Initial compilation completed
+c ERROR: Couldn't open NNF file 'zzzz-mc2022_track4_093-1000434.nnf'
+PKC ERROR: Return code = 1
+PKC LOG: Jobs: NonePKC LOG: Elapsed time = 3155.183 seconds
+PKC OUTCOME: failed
