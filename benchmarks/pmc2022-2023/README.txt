@@ -13,3 +13,7 @@ data-run:
 data-paper:
 	Raw data used to generate Fig. 4 of the paper
 
+Files:
+
+	data-analysis-paper.xlsx
+Excel spreadsheet used to compute some of the results reported in the paper
