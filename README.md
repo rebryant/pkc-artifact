@@ -9,6 +9,12 @@ compiler.  It includes source code for PKC plus data from the paper
 Included are both the actual data used in the paper, as well as the
 ability to reproduce all or parts of that data.
 
+ACCESSING
+
+The most recent version of this artifact is maintained as:
+
+    https://github.com/rebryant/pkc-artifact
+
 INSTALLATION
 
 Creating an executable version of PKC requires compiling the provided
@@ -19,8 +25,8 @@ compiler, version 2 (d4v2)  The provided code can be compiled by running
 There are two ways to obtain d4v2:
 
 1. Use the provided executable.  This artifact includes a statically
-   linked executable compiled for 64-bit Linux.  This should run
-   without any special installation steps on a compatible Linux
+   linked executable compiled for 64-bit Ubuntu Linux.  This should
+   run without any special installation steps on a compatible Linux
    machine, including the TACAS 23 virtual machine.
 
 2. Download and compile the code from github:
@@ -44,6 +50,13 @@ RUNNING
 Two sets of benchmarks are supplied, as described in the benchmark
 subdirectory.  PKC can be run either in limited "demo" form, or
 to generate the full data presented in the paper.
+
+The following are the approximate resource requirements for running
+the program on the two benchmark sets:
+
+  BENCH                         DEMO         FULL
+  Majority                      10 minutes      4 hours
+  Model Counting Competitions    5 minutes    170 hours
 
 EXAMINING DATA
 
