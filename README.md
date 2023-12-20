@@ -1,7 +1,7 @@
 # Artifact version of PKC projecting knowledge compiler
 
-  This is an artifact version of the PKC projecting knowledge
-  compiler.  It includes source code for PKC plus data from the paper
+This is an artifact version of the PKC projecting knowledge
+compiler.  It includes source code for PKC plus data from the paper
 
   R.E. Bryant, ``Algorithms for Projected Knowledge Compilation,''
   TACAS 2024.
