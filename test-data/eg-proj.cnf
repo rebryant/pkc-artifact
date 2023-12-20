@@ -1,0 +1,8 @@
+c t pmc
+c Example of projection
+c Encoding (x1 & x2) v x3 using y=x4 as intermediate variable
+p cnf 4 3
+1 -4 0
+2 -4 0
+3 4 0
+c p show 1 2 3 0

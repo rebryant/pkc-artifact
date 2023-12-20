@@ -32,6 +32,11 @@ There are two ways to obtain d4v2:
    /usr/local/bin), or by replacing the file "d4v2" in the src
    subdirectory with a symbolic link named "d4v2".
 
+TESTING
+
+After installation, running "make test" will run PKC on some simple
+examples in the "test-data" subdirectory.
+
 RUNNING
 
 Two sets of benchmarks are supplied, as described in the benchmark
