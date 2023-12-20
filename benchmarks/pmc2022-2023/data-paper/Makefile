@@ -3,11 +3,12 @@ HDIR = ../../..
 TDIR = $(HDIR)/tools
 GRAB = $(TDIR)/grab_data.py
 MERGE = $(TDIR)/merge_csv.py
+SHOW = $(TDIR)/show_csv.py
 
 data:
 # D4
-	$(INTERP) $(GRAB) "D4 LOG: Elapsed" *.D4_d4v2_log > seconds-d4.csv
-	$(INTERP) $(GRAB) -1 "Compressed POG has" *.D4_d4v2_log > clauses-defining.csv
+	$(INTERP) $(GRAB) "Time TOTAL" *.pkc_tnone_nopre_compile_d4v2_log > seconds-d4.csv
+	$(INTERP) $(GRAB) "Final POG Clauses" *.pkc_tnone_nopre_compile_d4v2_log > clauses-defining.csv
 	$(INTERP) $(MERGE) -f seconds-d4.csv clauses-defining.csv > d4-results.csv
 
 # PKC Recompile (=mono)
@@ -39,6 +40,11 @@ data:
 		seconds-pkc-splitdt.csv seconds-pkc-recompile.csv seconds-pkc-repair.csv > seconds-summary.csv
 	$(INTERP) $(MERGE) -l Bench,D4,Split-D,Split-DT,Recompile,Repair clauses-defining.csv clauses-pkc-splitd.csv \
 		clauses-pkc-splitdt.csv clauses-pkc-recompile.csv clauses-pkc-repair.csv > clauses-summary.csv
+
+	echo "TIMES (seconds)"
+	$(INTERP) $(SHOW) seconds-summary.csv
+	echo "SIZES (clauses)"
+	$(INTERP) $(SHOW) clauses-summary.csv
 
 clean:
 	rm -f *~ *.csv

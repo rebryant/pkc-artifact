@@ -17,7 +17,7 @@ Two different tests are supported:
   to have short runtimes. The results are summarized by the files
   seconds-summary.csv and clauses-summary.csv
 
-* "make full": Run on all 124 benchmarks files.  This reproduces the results
+* "make full": Run on all 122 benchmarks files.  This reproduces the results
   of the paper.  The results are summarized by the files
   seconds-summary.csv and clauses-summary.csv
 

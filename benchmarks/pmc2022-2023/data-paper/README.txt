@@ -11,7 +11,7 @@ following naming conventions, where BENCH is the benchmark formula name.
 	Repair-B:  BENCH.pkc_tpromote_purify_incr_d4v2_log
 	Recompile: BENCH.pkc_tnone_purify_mono_d4v2_log
 
-Running "make data" generates summaries of the results in files as
-files seconds-summary.csv and clauses-summary.csv.
+Running "make data" generates summaries of the results as files
+seconds-summary.csv and clauses-summary.csv.
 
 Running "make clean" removes all CSV files.
