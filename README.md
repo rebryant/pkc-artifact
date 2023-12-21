@@ -43,7 +43,8 @@ There are two ways to obtain d4v2:
 TESTING
 
 After installation, running "make test" will run PKC on some simple
-examples in the "test-data" subdirectory.
+examples in the "test-data" subdirectory.  The three formulas should
+have model counts of 5, 256, and 1024.
 
 RUNNING
 
@@ -58,7 +59,30 @@ the program on the two benchmark sets:
   Majority                      10 minutes      4 hours
   Model Counting Competitions    5 minutes    170 hours
 
+Running the demos:
+
+	cd benchmarks/majority/data-run
+	cat README.txt
+	make demo
+
+	cd ../../..
+
+	cd benchmarks/pmc2022-2023/data-run
+	cat README.txt
+	make demo
+
+Running the full set of experiments:
+
+	cd benchmarks/majority/data-run
+	make full
+
+	cd ../../..
+
+	cd benchmarks/pmc2022-2023/data-run
+	make full
+
+
 EXAMINING DATA
 
-The raw data files for the benchmark runs are also in the benchmark
-subdirectory.
+The raw data files for the benchmark runs used in the paper are also
+in the benchmark subdirectory.
