@@ -1,16 +1,16 @@
 # Top-level Makefile
 
 install:
-	pushd src ; make all; popd
+	cd src ; make all
 
 test:
-	pushd test-data ; make test ; popd
+	cd test-data ; make test 
 
 clean:
-	pushd src ; make clean ; popd
-	pushd tools ; make clean ; popd
-	pushd benchmarks ; make clean ; popd
-	pushd test-data ; make clean ; popd
+	cd src ; make clean 
+	cd tools ; make clean 
+	cd benchmarks ; make clean 
+	cd test-data ; make clean 
 	rm -f *.o *~
 
 

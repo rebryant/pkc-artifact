@@ -2,8 +2,8 @@ CC=gcc
 CXX=g++
 OPT=-O2
 #OPT=-O0
-CFLAGS=-g $(OPT) -Wno-nullability-completeness
-CPPFLAGS=-g $(OPT) -Wno-nullability-completeness -std=c++11 -Wno-reserved-user-defined-literal -I..
+CFLAGS=-g $(OPT) 
+CPPFLAGS=-g $(OPT) -std=c++11 -I..
 
 UFILES= utils/Options.o utils/System.o
 CFILES= core/Solver.o
@@ -17,23 +17,23 @@ all: lib prog
 lib: $(LIB)
 
 $(LIB):
-	pushd utils ; make ; popd
-	pushd core ; make ; popd
+	cd utils ; make 
+	cd core ; make 
 	ar cr $(LIB) $(UFILES) $(CFILES)
 	cp -p core/Solver.h .
 
 prog: $(TARG)
 
 $(TARG): $(LIB)
-	pushd utils ; make ; popd
-	pushd core ; make ; popd
+	cd utils ; make 
+	cd core ; make 
 	$(CXX) $(CFLAGS) -o $(TARG) $(MFILE) $(LIBS)
 
 all: $(FILES)
 
 clean:
-	pushd utils ; make clean ; popd
-	pushd core ; make clean ; popd
+	cd utils ; make clean 
+	cd core ; make clean 
 	rm -f *.o *~
 	rm -f $(LIB) $(TARG) Solver.h
 

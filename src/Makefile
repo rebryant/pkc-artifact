@@ -2,8 +2,8 @@ CC=gcc
 CXX=g++
 OPT=-O2
 #OPT=-O0
-CFLAGS=-g $(OPT) -Wno-nullability-completeness
-CPPFLAGS=-g $(OPT) -Wno-nullability-completeness -std=c++11 -Wno-reserved-user-defined-literal -I..
+CFLAGS=-g $(OPT) 
+CPPFLAGS=-g $(OPT) -std=c++11
 GDIR = glucose-3.0
 GINC = -I $(GDIR)
 LIBS =  $(GDIR)/glucose.a -lz
@@ -14,10 +14,10 @@ path.h: find_path.sh
 	./find_path.sh > path.h
 
 $(GDIR)/Solver.h:
-	pushd $(GDIR); make lib
+	cd $(GDIR); make lib
 
 $(GDIR)/glucose.a:
-	pushd $(GDIR); make lib
+	cd $(GDIR); make lib
 
 report.o: report.h report.c path.h
 	$(CC) $(CFLAGS) -c report.c

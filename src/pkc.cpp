@@ -26,6 +26,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <unistd.h>
+#include <cstring>
 
 #include "report.h"
 #include "counters.h"
